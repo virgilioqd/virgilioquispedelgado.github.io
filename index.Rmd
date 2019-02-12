@@ -5,3 +5,21 @@ title: "My Website"
 Hello, Website!
 
 ## Hola a todos, bienvenidos a mi página.
+
+
+
+# crecimiento logistico
+
+#ecuacion diferencial: N'=rN(1-N/k).
+
+#solucion analitica: N =(k*No*exp(rt)/(k + No*(exp(rt) - 1))
+
+
+
+```{r, echo=FALSE}
+rm(list=ls())
+logistic <- function(t, r, K, N0) {
+   K * N0 * exp(r * t) / (K + N0 * (exp(r * t) - 1))
+   }
+plot(0:100, logistic(t = 0:100, r = 0.1, K = 10, N0 = 0.1))
+```
