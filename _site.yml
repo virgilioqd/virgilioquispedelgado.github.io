@@ -15,7 +15,7 @@ navbar:
       menu:
         - text: "Cursos"
         - text: "Ecuaciones diferenciales"
-          href: page-a.html
+          href: ED_en_R-vqd.html
         - text: "Page B"
           href: page-b.html
         - text: "---------"
@@ -31,6 +31,4 @@ output:
     include:
       after_body: footer.html
     css: styles.css
-    
-include: ["crecimiento_logistico.R"]
-
+  
