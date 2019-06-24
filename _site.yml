@@ -21,7 +21,7 @@ navbar:
         - text: "---------"
         - text: "Matemática Básica"
         - text: "Page C"
-          href: page-c.html
+          href: Aprendizaje-significativo.html
         - text: "Page D"
           href: page-d.html
 output:
