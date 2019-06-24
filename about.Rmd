@@ -1,6 +1,8 @@
 ---
 title: "About This Website"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 More about this website.
