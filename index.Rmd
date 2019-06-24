@@ -18,5 +18,8 @@ ecuacion diferencial: $N'=rN(1-N/k)$.
 solucion analitica: $N =(k*No*exp(rt)/(k + No*(exp(rt) - 1))$.
 
 
+```{r}
+plot(2)
+```
 
 
