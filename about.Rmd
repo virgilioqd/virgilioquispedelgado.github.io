@@ -1,7 +1,9 @@
 ---
 title: "About This Website"
+output: pdf_document
 ---
 
-Aqui información sobre mi página web.
+More about this website.
 
-Aqui información sobre mi página web.
+
+
