@@ -13,7 +13,6 @@ navbar:
     - text: "Ecuaciones"
       icon: fa-ecuaciones
       href: ED_R-vqd.html
-      
     - text: "More"
       icon: fa-gear
       menu:
