@@ -6,10 +6,8 @@ output:
   pdf_document: default
 ---
 
-Hello, Website!
 
-
-## Hola a todos, bienvenidos a mi página.
+# Hola a todos, bienvenidos a mi página.
 
 
 
@@ -18,5 +16,7 @@ Hello, Website!
 ecuacion diferencial: $N'=rN(1-N/k)$.
 
 solucion analitica: $N =(k*No*exp(rt)/(k + No*(exp(rt) - 1))$.
+
+
 
 
