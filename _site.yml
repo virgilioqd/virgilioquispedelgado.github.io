@@ -15,7 +15,7 @@ navbar:
       menu:
         - text: "Cursos"
         - text: "Ecuaciones diferenciales"
-          href: ED_en_R-vqd.html
+          href: ED_R-vqd.html
         - text: "Page B"
           href: "http://www.w3.org/1999/xhtml"
         - text: "---------"
