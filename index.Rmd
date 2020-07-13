@@ -8,8 +8,7 @@ output:
 
 
 # Hola a todos, bienvenidos a mi página.
-
-
+..... Bienbenido.
 
 # crecimiento logistico
 
