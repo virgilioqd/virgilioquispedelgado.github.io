@@ -14,7 +14,7 @@ output:
 
 Ecuación diferencial: $N'=rN(1-N/k)$.
 
-Solución analitica: $N =(k*No*exp(rt)/(k + No*(exp(rt) - 1))$.
+Solución analítica: $N =(k*No*exp(rt)/(k + No*(exp(rt) - 1))$.
 
 
 ```{r echo=FALSE}
