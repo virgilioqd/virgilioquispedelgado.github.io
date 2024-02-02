@@ -12,12 +12,12 @@ output:
 
 # crecimiento logistico
 
-ecuacion diferencial: $N'=rN(1-N/k)$.
+Ecuación diferencial: $N'=rN(1-N/k)$.
 
-solucion analitica: $N =(k*No*exp(rt)/(k + No*(exp(rt) - 1))$.
+Solución analitica: $N =(k*No*exp(rt)/(k + No*(exp(rt) - 1))$.
 
 
-```{r}
+```{r echo=FALSE}
 plot(2)
 ```
 
