@@ -9,10 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Virgilio Quispe Delgado" />
 
 
-<title>Ejemplos de Limite de funciones reales</title>
+<title>limites-infinitos-ejemplos.knit</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -349,18 +348,28 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Ejemplos de Limite de funciones reales</h1>
-<h4 class="author">Virgilio Quispe Delgado</h4>
-<h4 class="date">22/12/2020</h4>
 
 </div>
 
 
-<div id="ejemplos" class="section level1">
-<h1>Ejemplos</h1>
+<div id="ejemplos" class="section level3">
+<h3>Ejemplos</h3>
 <p><strong>Ejemplo 1</strong></p>
-<p>Usando la definición de límite demuestre que; <span class="math inline">\(\lim_{x \to 1}(3x+2)=5\)</span>.</p>
-<p><em>Solución</em></p>
+<p>Determinar <span class="math inline">\(\lim_{x \to 0} (x^5 + \sqrt{x}
++ \frac{1}{x^2})\)</span></p>
+<p><strong>Solución</strong></p>
+<p><span class="math inline">\(\lim_{x \to 0} (x^5 + \sqrt{x} +
+\frac{1}{x^2})=0+0+ \infty = + \infty\)</span></p>
+<p><strong>Ejemplo 2.</strong></p>
+<p>Determinar <span class="math inline">\(\lim_{x \to + \infty} (5x^5 +
+4x^3  - 1)\)</span></p>
+<p><strong>Solución</strong></p>
+<p>En este caso tenemos una indeterminación del tipo <span class="math inline">\(\infty - \infty\)</span>. Para determinar el
+límite usamos un artificio de cálculo.</p>
+<p><span class="math inline">\(\lim_{x \to + \infty} (5x^5 + 4x^3  -
+1)=\lim_{x \to + \infty} x^5(1 +
+\frac{4}{x^2}-\frac{1}{x^5})\)</span></p>
+<p><span class="math inline">\(=+\infty(5-0+0)=+\infty\)</span></p>
 </div>
 
 
